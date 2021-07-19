@@ -1,0 +1,26 @@
+EXTENSION TO BE INSTALL:-
+
+bRACKET PAIR COLORIZER
+python
+atom one dark theme
+material icon theme
+code runner
+
+
+
+ctrl+d ==> duplicate line  ( copy line down in keyboard settings change to ctrl d)
+
+alt + arrow ==> move line
+alt + z ==> word wrap ( whole file)
+
+ctrl + y ==> redo
+ctrl +z ==> undo
+
+multiple cursor ==> alt + jha jha select karna
+
+
+ctrl + f2 ==> ek variable/word puri file jha jha hai select ho jayega
+
+ctrl + / ==> comment karega in python, html etc, except txt
+
+ctrl+Enter ==> move to next line 
