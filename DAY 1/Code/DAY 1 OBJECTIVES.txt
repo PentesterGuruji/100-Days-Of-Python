@@ -1,0 +1,6 @@
+📌#Day1 of #100daysofcode 
+1. Installing Python 
+2.  Introduction to Variables 
+3.  Printing your first code
+4.  Input Function
+5.  String manipulation and Code Intelligence
