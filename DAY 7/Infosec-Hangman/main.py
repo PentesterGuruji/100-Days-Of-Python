@@ -28,7 +28,9 @@ lives = 6
 display = []
 for _ in range(word_length):
     display += "_"
-
+    
+    
+print(f"{' '.join(display)}")
 
 Guessed_letters = ""
 
@@ -54,6 +56,7 @@ while not end_of_game:
         if lives == 0:
             end_of_game = True
             print("You lose.")
+            print(f"The correct answer is {chosen_word}")
 
     print(f"{' '.join(display)}")
 
