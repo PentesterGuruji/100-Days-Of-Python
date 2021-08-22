@@ -28,25 +28,22 @@ lives = 6
 display = []
 for _ in range(word_length):
     display += "_"
-    
-    
-print(f"{' '.join(display)}")
 
-Guessed_letters = ""
+print(f"{' '.join(display)}\n")
+
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
     
     clear()
 
-    if guess in Guessed_letters:
+    if guess in display:
                 print(f"You have already guessed {guess}")
     
     for position in range(word_length):
         letter = chosen_word[position]
         if letter == guess:
             display[position] = letter
-            Guessed_letters += guess
             
     
 
